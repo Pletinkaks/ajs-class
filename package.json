@@ -1,5 +1,5 @@
 {
-  "name": "methods",
+  "name": "ajs-class",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pletinkaks/methods.git"
+    "url": "git+https://github.com/Pletinkaks/ajs-class.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Pletinkaks/methods/issues"
+    "url": "https://github.com/Pletinkaks/ajs-class/issues"
   },
-  "homepage": "https://github.com/Pletinkaks/methods#readme",
+  "homepage": "https://github.com/Pletinkaks/ajs-class#readme",
   "devDependencies": {
     "@babel/cli": "^7.24.1",
     "@babel/core": "^7.24.4",
