@@ -1,13 +1,10 @@
-import { Character } from './basic';
+import Character from './character';
 
-export default class Zombie extends Character {
-  constructor(name, type = 'Zombie') {
+class Zombie extends Character {
+  constructor(name, type) {
     super(name, type);
-    this.attack = 40;
-    this.defence = 10;
+    this.setStats();
   }
 }
 
-const obj = new Zombie('Ks', 'Zombie');
-
-console.log(obj);
+export default Zombie;

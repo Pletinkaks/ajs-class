@@ -1,13 +1,10 @@
-import { Character } from './basic';
+import Character from './character';
 
-export default class Undead extends Character {
-  constructor(name, type = 'Undead') {
+class Undead extends Character {
+  constructor(name, type) {
     super(name, type);
-    this.attack = 25;
-    this.defence = 25;
+    this.setStats();
   }
 }
 
-const obj = new Undead('Ks', 'Undead');
-
-console.log(obj);
+export default Undead;
